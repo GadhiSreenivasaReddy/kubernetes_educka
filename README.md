@@ -45,7 +45,7 @@
 | cloud-controller-manager | This component embraces various controllers, all of which interact with the cloud providers’ APIs.|
 
 
-![Kubernetes Architecture](https://github.com/lerndevops/static/blob/master/kube/Kubernetes-cluster.png)
+![Kubernetes Architecture](https://d33wubrfki0l68.cloudfront.net/2475489eaf20163ec0f54ddc1d92aa8d4c87c96b/e7c81/images/docs/components-of-kubernetes.svg)
 
 > Applications deployed by users usually run on non-master nodes. These nodes communicate with the master via kubelet, a central node component that performs many orchestration tasks such as registering nodes with the API server, starting and killing containers, monitoring containers, executing liveness probes, collecting container and node metrics, etc.
 
